@@ -37,7 +37,7 @@ function App() {
 
   const updateForm = (fieldToUpdate: Partial<FormItems>) =>
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    setFormData((prev) => ({ ...formData, ...fieldToUpdate }));
+    setFormData(() => ({ ...formData, ...fieldToUpdate }));
 
   const { currentIndex, goBackwards, goForwards, isFirstStep, isLastStep, isConfirmation } = useMultiForm(
     sideBar.length + 1
