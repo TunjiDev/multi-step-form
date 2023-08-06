@@ -1,5 +1,9 @@
 # React + TypeScript + Vite
 
+## Hosted on Netlify:
+
+https://multi-step-form-clan-africa.netlify.app/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
